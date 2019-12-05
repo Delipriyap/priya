@@ -1,5 +1,9 @@
 #include<stdio.h>
 int main()
 {
-printf("This is git hub account");
+int a,b,c;
+printf("Enter the vlaues:");
+scanf("%d %d",&a,&b);
+c=a+b;
+printf("Sum is:%d\n",c);
 }
